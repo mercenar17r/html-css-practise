@@ -35,6 +35,36 @@
 				color: white;
 				cursor: pointer;
 			}
+
+			.uber-input {
+				display: block;
+				background-color: rgb(211, 211, 211);
+				border: none;
+				margin-bottom: 3px;
+				border-radius: 2px;
+				font-size: 30px;
+				width: 300px;
+			}
+			.uber-request {
+				background-color: black;
+				color: white;
+				margin-top: 15px;
+				margin-right: 10px;
+				font-size: 15px;
+				padding: 15px;
+				border: none;
+				cursor: pointer;
+			}
+			.uber-button {
+				background-color: rgba(231, 216, 216, 0.815);
+				color: black;
+				margin-top: 15px;
+				margin-right: 10px;
+				font-size: 15px;
+				padding: 15px;
+				border: none;
+				cursor: pointer;
+			}
 		</style>
 	</head>
 	<body>
@@ -54,6 +84,17 @@
 			<input type="text" placeholder="First name" class="input2" />
 			<input type="text" placeholder="Email" class="email" />
 			<button class="sign-button">Sign up</button>
+		</div>
+		<div>
+			<h1>Request a ride now</h1>
+			<input
+				type="text"
+				placeholder="Enter pickup location"
+				class="uber-input"
+			/>
+			<input type="text" placeholder="Enter destination" class="uber-input" />
+			<button class="uber-request">Request now</button>
+			<button class="uber-button">Schedule for later</button>
 		</div>
 	</body>
 </html>
