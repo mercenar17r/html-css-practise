@@ -5,6 +5,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Images and textboxes</title>
 		<style>
+			* {
+				background-color: rgb(219, 186, 174);
+			}
 			.cat {
 				width: 300px;
 				border-radius: 10px;
@@ -62,6 +65,30 @@
 				font-family: Arial;
 				margin-left: 60px;
 			}
+			.tw-img {
+				height: 70px;
+				width: 70px;
+				object-fit: cover;
+				object-position: center;
+				border-radius: 100px;
+
+				vertical-align: middle;
+			}
+			.tw-input {
+				vertical-align: middle;
+				font-size: 30px;
+				border: none;
+				margin-left: 10px;
+			}
+			.tw-button {
+				vertical-align: middle;
+				padding: 16px;
+				width: 140px;
+				border: none;
+				border-radius: 20px;
+				color: white;
+				background-color: #2f66cc;
+			}
 		</style>
 	</head>
 	<body>
@@ -98,5 +125,14 @@
 			</p>
 			<button class="linkedin-button">Agree & Join</button>
 		</div>
+
+		<img
+			class="tw-img"
+			src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR59I4-08G--OTlygoxZYj-9qMVwM4R2KBxuA&s"
+			alt=""
+		/>
+
+		<input class="tw-input" type="text" placeholder="What's happening?" />
+		<button class="tw-button">Tweet</button>
 	</body>
 </html>
