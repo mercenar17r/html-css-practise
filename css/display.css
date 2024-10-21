@@ -1,0 +1,60 @@
+.box1 {
+	display: block;
+	margin-bottom: 5px;
+}
+.p1 {
+	width: 200px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.email {
+	display: block;
+	width: 220px;
+	font-size: 20px;
+}
+.input2 {
+	width: 104px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+.sign-button {
+	width: 220px;
+	margin-top: 5px;
+	background-color: #2f8cd8;
+	border: none;
+	padding: 12px;
+	border-radius: 10px;
+	color: white;
+	cursor: pointer;
+}
+
+.uber-input {
+	display: block;
+	background-color: rgb(211, 211, 211);
+	border: none;
+	margin-bottom: 3px;
+	border-radius: 2px;
+	font-size: 30px;
+	width: 300px;
+}
+.uber-request {
+	background-color: black;
+	color: white;
+	margin-top: 15px;
+	margin-right: 10px;
+	font-size: 15px;
+	padding: 15px;
+	border: none;
+	cursor: pointer;
+}
+.uber-button {
+	background-color: rgba(231, 216, 216, 0.815);
+	color: black;
+	margin-top: 15px;
+	margin-right: 10px;
+	font-size: 15px;
+	padding: 15px;
+	border: none;
+	cursor: pointer;
+}
