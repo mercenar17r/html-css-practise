@@ -3,134 +3,171 @@
 	<head>
 		<title>Flexbox Practice</title>
 		<style>
-			.flex {
-				display: flex;
-				margin-top: 100px;
-			}
-			.flex1{
-				display: flex;
-				
+			/* .flex {
+							display: flex;
+							margin-top: 100px;
+						}
+						.flex1{
+							display: flex;
+
+						}
+
+
+
+						.flex11{
+							display: flex;
+							justify-content: space-between;
+							margin-right: 12px;
+							margin-left: 12px;
+
+
+						}
+						.container{
+							width: 300px;
+							border: 3px solid rgb(197, 197, 197);
+							height: 90px;
+							align-content: center;
+							border-radius: 10px;
+							margin-top: 100px;
+
+
+						}
+						.flex-items{
+							font-family: Arial;
+							margin-top: 5px;
+							font-weight: normal;
+						}
+						.message{
+							background-color: rgb(29, 31, 187);
+							width: 33px;
+							text-align: center;
+							color: white;
+							border-radius: 20px;
+
+						}
+						.container1{
+							width: 400px;
+							border: 3px solid rgb(197, 197, 197);
+							height: 200px;
+							align-content: center;
+							border-radius: 10px;
+							margin-top: 100px;
+						}
+						.flex112{
+							display: flex;
+
+						}
+
+
+						.flex-dir3{
+							display: flex;
+							align-self: start;
+						}
+
+
+
+
+						.flex112{
+							display: flex;
+							flex-direction: column;
+						}
+
+						p {
+			  font-family: Arial;
+			  margin-top: 0;
+			  margin-bottom: 0;
 			}
 
-			
-			
-			.flex11{
-				display: flex;
-				justify-content: space-between;
-				margin-right: 12px;
-				margin-left: 12px;
-				
-
-			}
-			.container{
-				width: 300px;
-				border: 3px solid rgb(197, 197, 197);
-				height: 90px;
-				align-content: center;
-				border-radius: 10px;
-				margin-top: 100px;
-				
-
-			}
-			.flex-items{
-				font-family: Arial;
-				margin-top: 5px;
-				font-weight: normal;
-			}
-			.message{
-				background-color: rgb(29, 31, 187);
-				width: 33px;
-				text-align: center;
-				color: white;
-				border-radius: 20px;
-				
-			}
-			.container1{
-				width: 400px;
-				border: 3px solid rgb(197, 197, 197);
-				height: 200px;
-				align-content: center;
-				border-radius: 10px;
-				margin-top: 100px;
-			}
-			.flex112{
-				display: flex;
-
+			.row {
+			  display: flex;
+			  flex-direction: row;
+			  align-items: center;
+			  margin-bottom: 20px;
 			}
 
-			
-			.flex-dir3{
-				display: flex;
-				align-self: start;
+			.profile-picture {
+			  height: 50px;
+			  width: 50px;
+			  object-fit: cover;
+			  border-radius: 25px;
+			  margin-right: 15px;
 			}
-			
-			
-			
-			
-			.flex112{
-				display: flex;
-				flex-direction: column;
+
+			.info {
+			  width: 200px;
 			}
+
+			.name {
+			  font-weight: bold;
+			  margin-bottom: 3px;
+			}
+
+			.handle {
+			  color: rgb(150, 150, 150);
+			  margin-bottom: 5px;
+			}
+
+			.category {
+			  color: rgb(150, 150, 150);
+			  font-size: 14px;
+			}
+
+			.follow-button {
+			  background-color: rgb(29, 155, 240);
+			  color: white;
+			  border: none;
+			  font-size: 16px;
+			  font-weight: bold;
+			  padding-top: 10px;
+			  padding-bottom: 10px;
+			  padding-left: 15px;
+			  padding-right: 15px;
+			  border-radius: 4px;
+			  cursor: pointer;
+			} */
 
 			p {
-  font-family: Arial;
-  margin-top: 0;
-  margin-bottom: 0;
-}
+				font-family: Arial;
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+			.container {
+				display: flex;
+				background-color: #551f55;
+				height: 55px;
+				justify-content: space-between;
+				align-items: center;
+				color: white;
+			}
+			.input-search {
+				width: 300px;
+				border: none;
+				border-radius: 10px;
+				font-size: 16px;
+				text-align: center;
+				height: 30px;
+			}
+			.home {
+				margin-left: 10px;
+			}
+			.dw-button {
+				background-color: #551f55;
+				color: white;
 
-.row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.profile-picture {
-  height: 50px;
-  width: 50px;
-  object-fit: cover;
-  border-radius: 25px;
-  margin-right: 15px;
-}
-
-.info {
-  width: 200px;
-}
-
-.name {
-  font-weight: bold;
-  margin-bottom: 3px;
-}
-
-.handle {
-  color: rgb(150, 150, 150);
-  margin-bottom: 5px;
-}
-
-.category {
-  color: rgb(150, 150, 150);
-  font-size: 14px;
-}
-
-.follow-button {
-  background-color: rgb(29, 155, 240);
-  color: white;
-  border: none;
-  font-size: 16px;
-  font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-			
+				border: 1px solid white;
+				margin-right: 10px;
+				height: 40px;
+				width: auto;
+				cursor: pointer;
+				transition: background-color 1s, color 1s;
+			}
+			.dw-button:hover {
+				background-color: #a637da;
+			}
 		</style>
 	</head>
-	<body style="padding-bottom: 1000px">
-		<div class="flex">
+	<body>
+		<!-- <div class="flex">
 			<div style="background-color: aliceblue">200px</div>
 			<div style="background-color: aquamarine">75px</div>
 		</div>
@@ -192,13 +229,11 @@
 			<button class="follow-button">Follow</button>
 		  </div>
 
-
-		  
-		
+		  <div></div> -->
+		<div class="container">
+			<p class="home">Home</p>
+			<input class="input-search" type="text" placeholder="Search" />
+			<button class="dw-button">Download</button>
+		</div>
 	</body>
 </html>
-
-
-
-
-
