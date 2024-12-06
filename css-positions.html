@@ -4,12 +4,35 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
-		<style></style>
+		<style>
+			.sidebar {
+				position: fixed;
+				background-color: green;
+				color: white;
+				top: 60px;
+				left: 0;
+				bottom: 0;
+				width: 72px;
+				padding: 0;
+			}
+			.header {
+				background-color: black;
+				color: white;
+				position: fixed;
+				top: 0;
+				left: 0;
+				right: 0;
+				height: 60px;
+			}
+			body {
+				height: 3000px;
+				padding-top: 60px;
+				padding-left: 80px;
+			}
+		</style>
 	</head>
-	<body style="height: 3000px">
-		<div style="background-color: rgb(0, 0, 0); color: white; position: fixed">
-			header
-		</div>
+	<body>
+		<div class="header">header</div>
 		<div
 			style="
 				background-color: lightblue;
@@ -23,5 +46,6 @@
 		<div style="background-color: lightpink; height: 200px; width: 200px">
 			div2
 		</div>
+		<div class="sidebar">sidebar</div>
 	</body>
 </html>
