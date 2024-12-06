@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
 		<style>
-			.sidebar {
+			/* .sidebar {
 				position: fixed;
 				background-color: green;
 				color: white;
@@ -28,11 +28,75 @@
 				height: 3000px;
 				padding-top: 60px;
 				padding-left: 80px;
+			} */
+			body {
+				padding-left: 70px;
+			}
+			.container {
+				background-color: #353535;
+				color: white;
+				display: flex;
+				width: 300px;
+				height: 300px;
+
+				flex-direction: column;
+				padding: 30px;
+			}
+			.container-header {
+				display: flex;
+				justify-content: space-between;
+				flex-direction: row;
+				width: 290px;
+				align-items: center;
+				padding-bottom: 10px;
+			}
+			.info {
+				font-size: 14px;
+				font-weight: bold;
+				font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+					"Lucida Sans", Arial, sans-serif;
+			}
+			.info1 {
+				font-size: 32px;
+				font-weight: bold;
+				font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+					"Lucida Sans", Arial, sans-serif;
+				color: #888888;
+			}
+
+			.rooms {
+				display: flex;
+				flex-direction: column;
+			}
+			.rooms-flex {
+				font-size: 20px;
+				margin-bottom: 10px;
+				color: #888888;
+			}
+			.profiles {
+				position: fixed;
+				bottom: 244px;
+				top: 8px;
+				left: 0;
+				background-color: #1a1a1a;
+			}
+			.images {
+			}
+			.imgg {
+				flex: 1;
+				display: block;
+				padding-left: 7px;
+				margin-right: 7px;
+				width: 80px;
+				display: flex;
+				flex-direction: column;
+				border-radius: 50%;
+				margin-top: 20px;
 			}
 		</style>
 	</head>
 	<body>
-		<div class="header">header</div>
+		<!-- <div class="header">header</div>
 		<div
 			style="
 				background-color: lightblue;
@@ -46,6 +110,41 @@
 		<div style="background-color: lightpink; height: 200px; width: 200px">
 			div2
 		</div>
-		<div class="sidebar">sidebar</div>
+		<div class="sidebar">sidebar</div> -->
+
+		<div class="container">
+			<div class="container-header">
+				<div class="info">INFO</div>
+				<div class="info1">+</div>
+			</div>
+			<div class="rooms">
+				<div class="rooms-flex"># new-videos</div>
+				<div class="rooms-flex"># updates</div>
+				<div class="rooms-flex"># faq</div>
+			</div>
+		</div>
+		<div class="profiles">
+			<div class="images">
+				<img
+					class="imgg"
+					src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQCQGzMQJkP-p6xsEhRVO-xmB_Vwxxj-6FqQ&s"
+					alt=""
+				/>
+			</div>
+			<div class="images">
+				<img
+					class="imgg"
+					src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQCQGzMQJkP-p6xsEhRVO-xmB_Vwxxj-6FqQ&s"
+					alt=""
+				/>
+			</div>
+			<div class="images">
+				<img
+					class="imgg"
+					src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQCQGzMQJkP-p6xsEhRVO-xmB_Vwxxj-6FqQ&s"
+					alt=""
+				/>
+			</div>
+		</div>
 	</body>
 </html>
